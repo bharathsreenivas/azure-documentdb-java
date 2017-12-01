@@ -36,7 +36,7 @@ public class BulkReadStoredProcedureResponse {
 	public List<Object> readResults;
 
 	/**
-	 * Represents the group by key value upto which read.
+	 * Represents the group by key value up to which read.
 	 */
 	@JsonProperty("continuationGroupByKey")
 	public String continuationPk;
